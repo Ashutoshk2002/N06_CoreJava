@@ -1,3 +1,7 @@
+/*Ask a user for their birth year encoded as 2 digits (like "02") and for the current year also encoded as 2 digits 
+ * (like "23").Write a program to find the user's current age in years. 
+ */
+
 package org.tnsif.codingchallenge;
 
 import java.util.Scanner;

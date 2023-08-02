@@ -5,28 +5,26 @@
 *t=11 n=5
  */
 
+
 package org.tnsif.codingchallenge;
 
 import java.util.Scanner;
 
 public class MangoTreeExecutor {
-	static void isMangoTree(int n , int t)
-	{
-		if(t%n==0 || t%n==1 || t<=n) {
-		 System.out.println("Mango Tree");
-		 
-		}else
+	static void isMangoTree(int n, int t) {
+		if (t % n == 0 || t % n == 1 || t <= n) {
+			System.out.println("Mango Tree");
+
+		} else
 			System.out.println("Not a Mango Tree");
 	}
 
-
 	public static void main(String[] args) {
-		Scanner sc= new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter value of n and t: ");
 		int n = sc.nextInt();
 		int t = sc.nextInt();
-		isMangoTree(n,t);
-
+		isMangoTree(n, t);
 
 	}
 
