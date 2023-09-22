@@ -46,8 +46,8 @@ public class AccountThread extends Thread {
 				acc.withdraw(amount);
 			}
 		}
-		catch(DepositLimitExceedException) {
-			
+		catch(DepositLimitExceedException  | InsufficientBalanceException e) {
+			System.out.println(e.getMessage());
 		}
 		
 	}
