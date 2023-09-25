@@ -6,7 +6,10 @@ public class AccountThread extends Thread {
 	private int amount;
 
 	public AccountThread() {
+<<<<<<< HEAD
 
+=======
+>>>>>>> temp
 	}
 
 	public AccountThread(Account acc) {
@@ -37,6 +40,7 @@ public class AccountThread extends Thread {
 		this.amount = amount;
 	}
 
+<<<<<<< HEAD
 //	-------------------------------
 	public void run() {
 		try {
@@ -52,4 +56,16 @@ public class AccountThread extends Thread {
 		
 	}
 
+=======
+	public void run() {
+		try {
+			if (type.equals("deposit"))
+				acc.deposit(amount);
+			else if (type.equals("withdraw"))
+				acc.withdraw(amount);
+		} catch (DepositLimitExceedsException | InsufficientBalanceException e) {
+			System.out.println(e.getMessage());
+		}
+	}
+>>>>>>> temp
 }

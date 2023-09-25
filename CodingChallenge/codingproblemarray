@@ -1,0 +1,9 @@
+Given an array numbers of N integer where n>1 and
+ return an array output such that output of i'th index=product of all elements except nums of i'th index
+ 
+ Input: 
+ [1,2,3,4]
+ Output:
+ [24,12,8,6]
+ 
+ 
