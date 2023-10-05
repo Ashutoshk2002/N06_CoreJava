@@ -13,7 +13,7 @@ public class TreeSetDemo {
 		ts.add(2);
 		ts.add(1);
 		
-		System.out.println(ts);
+		System.out.println(ts); 
 
 	}
 
