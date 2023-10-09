@@ -9,7 +9,7 @@ public class HashMapExecutor {
 		hm.put(null, "Ashutosh");
 		hm.put("1", null);
 		//can put null values and faster
-
+ 
 		System.out.println(hm);
 		System.out.println("----------------------------");
 		Set<Entry<String,String>> s=hm.entrySet();
