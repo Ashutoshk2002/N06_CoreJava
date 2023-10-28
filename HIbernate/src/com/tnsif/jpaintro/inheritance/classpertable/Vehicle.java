@@ -1,4 +1,4 @@
-package com.tnsif.jpaintro.inheritance.classpertable;
+ package com.tnsif.jpaintro.inheritance.classpertable;
 
 import javax.persistence.Id;
 import javax.persistence.Inheritance;
